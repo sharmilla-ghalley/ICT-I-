@@ -1,0 +1,7 @@
+my_tuple=("hello")
+result_tuple=(my_tuple[-1],my_tuple[0])
+print(result_tuple)
+
+my_tuple=('H', 'E', 'L', 'L', '0')
+result_tuple=(my_tuple[-1], my_tuple[0])
+print(result_tuple)
