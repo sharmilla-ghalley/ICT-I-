@@ -3,6 +3,10 @@ books_list=[]
 authors_set=set()
 books_dict={}
 
+books_list.append("Python Programming")
+authors_set.add("John smith")
+books_dict["Python programming"]="John Smith"
+
 books_list.append("Python Fundamentals")
 authors_set.add("John Smith")
 books_dict["Python Fundamentals"]="John Smith"
