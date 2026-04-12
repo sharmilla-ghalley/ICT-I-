@@ -3,4 +3,4 @@ b=float(input("enter the breadth: "));
 area=l*b;
 print("the area of the rectangle is:", area)
 print(type(l))
-print(type(b))
+print(type(b)) 

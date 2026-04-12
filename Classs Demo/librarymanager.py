@@ -43,6 +43,6 @@ if remove_title in books_list:
     print("JUst available authors:", authors_set)
 
 else:
-    print("Book not found!") 
+    print("Book not found!")
 
     

@@ -2,9 +2,11 @@
 for i in range(1,6): 
     for j in range(1,i+1):
        print(j,end="")
-    print()        
-
-for i in range(6,0,-1):
-    for j in range(i):
-        print("*", end ="")
     print()
+
+for i in range(6,0,-1):#number of row(0,1,2,3) we know four rows as it keep one space 
+    for j in range(i):#no of columns 
+        print("*", end ="")
+    print() 
+
+

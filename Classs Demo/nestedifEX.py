@@ -7,4 +7,4 @@ if age >= 18:
     else:
         print("You need to register to vote.")
 else:
-    print("you are not eligible to vote.")
+    print("you are not eligible to vote.") 

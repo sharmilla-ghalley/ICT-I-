@@ -11,4 +11,4 @@ print(division_result)
 exponentiation_result=a**b#10**5=100000
 print(exponentiation_result)
 modulus_result=a%b#10%5=0(remainder of division)
-print(modulus_result)
+print(modulus_result) 

@@ -41,4 +41,4 @@ if remove_name in students_dict: # Allows user to check of the entered name exis
     del students_dict[remove_name]#  Allows the permanent deletion of the students record from the dictionary.
     print("Student's details removed successfully!")# If the record is found it will remove the studnt's detail from all data structure.
 else:
-    print("Student's details not found!") #If the record or data not found it will print out not found 
+    print("Student's details not found!") #If the record or data not found it will print out not found

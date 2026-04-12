@@ -19,3 +19,8 @@ print(my_list)
 my_repeated_list.clear()
 print(my_repeated_list)
 
+
+my_list[5]=False
+print(my_list)
+
+
