@@ -23,8 +23,7 @@ average=calculate_average(total)
 # d. Function to check pass/fail
 def check_result(average):
     if average >= 50:
-        return "Congratulation! You are pass"
+        return "Congratulations! You are pass"
     else:
-        return "You have failed this semester try again"
-    check_result(average)
+        return "You have failed this semester. Try again."
 print(f"Your result is {check_result(average)}")
