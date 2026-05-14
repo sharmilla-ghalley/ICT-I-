@@ -79,4 +79,4 @@ if selected_students:
     print(f"  {selected_students[-1][1]} ({selected_students[-1][2]})")
 else:
     # If no students found
-    print("No students match Group 6 criteria.")
+    print("No students match Group 6 criteria.") 
