@@ -69,3 +69,14 @@ if selected_students:
     print("\nNames of selected students:")
     for s in selected_students:
         print(f"  - {s[1]}")
+
+ # Show the first student (the one with the lowest ID number)
+    print(f"\nFirst Student according to the Student ID:")
+    print(f"  {selected_students[0][1]} ({selected_students[0][2]})")
+
+    # Show the last student (the one with the highest ID number)
+    print(f"\nLast Student according to the Student ID:")
+    print(f"  {selected_students[-1][1]} ({selected_students[-1][2]})")
+else:
+    # If no students found
+    print("No students match Group 6 criteria.")
